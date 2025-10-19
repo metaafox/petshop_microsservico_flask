@@ -1,0 +1,128 @@
+{
+  "medicos": [
+    {
+      "id": "med1",
+      "nome": "Dr. Fauna Silva",
+      "especialidade": "Clinica Geral",
+      "email": "lcfjuniorr@gmail.com"
+    },
+    {
+      "id": "med2",
+      "nome": "Dra. Flora Santos",
+      "especialidade": "Odontologia",
+      "email": "lcfjuniorr@gmail.com"
+    },
+    {
+      "id": "med3",
+      "nome": "Dr. Pet Souza",
+      "especialidade": "Ortopedia",
+      "email": "lcfjuniorr@gmail.com"
+    },
+    {
+      "id": "med4",
+      "nome": "Dra. Coração Bichano",
+      "especialidade": "Cardiologia",
+      "email": "lcfjuniorr@gmail.com"
+    },
+    {
+      "id": "med5",
+      "nome": "Dr. Pelo Bonito",
+      "especialidade": "Dermatologia",
+      "email": "lcfjuniorr@gmail.com"
+    }
+  ],
+  "horarios_disponiveis": [
+    {
+      "medico_id": "med1",
+      "data": "2025-11-15",
+      "horario": "09:00",
+      "disponivel": true
+    },
+    {
+      "medico_id": "med1",
+      "data": "2025-11-15",
+      "horario": "10:00",
+      "disponivel": true
+    },
+    {
+      "medico_id": "med2",
+      "data": "2025-11-15",
+      "horario": "11:00",
+      "disponivel": true
+    },
+    {
+      "medico_id": "med3",
+      "data": "2025-11-16",
+      "horario": "14:00",
+      "disponivel": true
+    },
+    {
+      "medico_id": "med4",
+      "data": "2025-11-16",
+      "horario": "09:30",
+      "disponivel": true
+    },
+    {
+      "medico_id": "med5",
+      "data": "2025-11-17",
+      "horario": "16:00",
+      "disponivel": true
+    },
+    {
+      "medico_id": "med5",
+      "data": "2025-11-17",
+      "horario": "17:00",
+      "disponivel": true
+    }
+  ],
+  "agendamentos": [
+    {
+      "id": 1,
+      "timestamp": "2025-10-19T05:03:55.352262",
+      "medico_nome": "Dra. Flora Santos",
+      "especialidade": "Odontologia",
+      "medico_id": "med2",
+      "data": "2025-11-15",
+      "horario": "11:00",
+      "cliente_nome": "Cliente Teste Odonto",
+      "pet_nome": "Dentinho",
+      "contato": "9999-5555"
+    },
+    {
+      "id": 2,
+      "timestamp": "2025-10-19T06:44:27.016645",
+      "medico_nome": "Dra. Flora Santos",
+      "especialidade": "Odontologia",
+      "medico_id": "med2",
+      "data": "2025-11-15",
+      "horario": "11:00",
+      "cliente_nome": "Cliente Marlon",
+      "pet_nome": "Dentinho",
+      "contato": "9999-5555"
+    },
+    {
+      "id": 3,
+      "timestamp": "2025-10-19T06:47:38.377459",
+      "medico_nome": "Dr. Fauna Silva",
+      "especialidade": "Clinica Geral",
+      "medico_id": "med1",
+      "data": "2025-11-15",
+      "horario": "10:00",
+      "cliente_nome": "Cliente Marlon",
+      "pet_nome": "Dentinho",
+      "contato": "9999-5555"
+    },
+    {
+      "id": 4,
+      "timestamp": "2025-10-19T06:49:27.945436",
+      "medico_nome": "Dra. Flora Santos",
+      "especialidade": "Odontologia",
+      "medico_id": "med2",
+      "data": "2025-11-15",
+      "horario": "11:00",
+      "cliente_nome": "Cliente Marlon",
+      "pet_nome": "Dentinho",
+      "contato": "9999-5555"
+    }
+  ]
+}
