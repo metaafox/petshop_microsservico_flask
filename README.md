@@ -1,7 +1,7 @@
 Microsserviço de Agendamento para Pet Shop
 Este é um microsserviço Python desenvolvido com o framework Flask para gerenciar o agendamento de consultas veterinárias em um Pet Shop. Ele simula uma API RESTful completa com persistência NoSQL (usando um arquivo JSON) e inclui um sistema de notificação por e-mail para o médico (via SMTP).
 
-🚀 Funcionalidades
+Funcionalidades
 Consulta de Disponibilidade (GET /disponibilidade): Retorna os horários livres, permitindo filtros por Especialidade, Data e ID do Médico. O primeiro horário retornado é o "melhor" (o mais cedo).
 
 Agendamento (POST /agendar): Permite ao cliente reservar um horário.
